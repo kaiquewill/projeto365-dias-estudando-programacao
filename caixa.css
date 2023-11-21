@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(217, 217, 243);
+}
+p{
+    background-color: black;
+    color: white;
+
+}
+h1{ 
+    font-family: "press start 2p";
+}
+
+.odd{
+    color: blueviolet;
+    font-family:"press start 2p" ;
+    font-style: italic;
+}
+.even{
+    color: aquamarine;
+    font-weight: bold;
+    text-decoration: underline;
+}
