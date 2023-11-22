@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+button:hover{
+    background-color: rgb(31, 31, 44);
+    transition-duration: 0.2s;
+    color: white;
+
+
+}

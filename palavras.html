@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Palavras Aleatórias</title>
+    <link rel="stylesheet" href="palavrass.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            align-items: center;
+        }
+
+        #word-display {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #new-word-btn {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gerador de Palavras Aleatórias</h2>
+    
+    <div id="word-display">Clique em "Nova Palavra" para começar!</div>
+    <button id="new-word-btn" onclick="generateRandomWord()">Nova Palavra</button>
+
+    <script>
+        // Lista de palavras
+        const palavras = [
+  'abacaxi', 'abelha', 'abraço', 'academia', 'acidente', 'aconchegante', 'adolescente', 'água', 'algoritmo', 'almoço',
+  'amizade', 'amor', 'aniversário', 'aprendizado', 'arco-íris', 'arquitetura', 'aventura', 'balão', 'banho', 'barulho',
+  'beijo', 'bicicleta', 'brincadeira', 'cachorro', 'caminhada', 'câmera', 'carro', 'carta', 'celebração', 'chocolate',
+  'chuva', 'cidade', 'coelho', 'colina', 'colorido', 'computador', 'concerto', 'conquista', 'conversa', 'coração',
+  'corrida', 'criatividade', 'dança', 'decepção', 'descoberta', 'desenho', 'descanso', 'desejo', 'dia', 'difícil',
+  'dinheiro', 'diversão', 'doces', 'dormir', 'efeito', 'elefante', 'embarque', 'emoção', 'encontro', 'energia',
+  'entusiasmo', 'escrita', 'esforço', 'esperança', 'estrela', 'estudo', 'experiência', 'exploração', 'família', 'fantasia',
+  'felicidade', 'feriado', 'festa', 'filme', 'floresta', 'flor', 'foco', 'fogos de artifício', 'folha', 'fotografia',
+  'fruta', 'futuro', 'garrafa', 'gato', 'gelo', 'girassol', 'gratidão', 'grito', 'harmonia', 'história', 'horizonte',
+  'imaginação', 'impacto', 'importante', 'infância', 'inovação', 'inspiração', 'inteligência', 'interessante', 'inverno',
+  'janela', 'jantar', 'jardim', 'jogos', 'jornada', 'joy', 'juventude', 'labirinto', 'lágrima', 'leitura', 'liberdade',
+  'light', 'limonada', 'lua', 'luz', 'maduro', 'magia', 'manhã', 'mapa', 'marca', 'maravilha', 'melodia', 'memória',
+  'mensagem', 'menta', 'meta', 'milagre', 'minuto', 'mistério', 'momento', 'montanha', 'movimento', 'mundo', 'música',
+  'natureza', 'navio', 'neve', 'noite', 'nota', 'novidade', 'novo', 'ocean', 'oportunidade', 'organização', 'ouro',
+  'outono', 'palavra', 'papel', 'parque', 'passeio', 'paz', 'perdão', 'perigo', 'perseverança', 'piano', 'pintura',
+  'planeta', 'plano', 'poder', 'ponte', 'porta', 'possibilidade', 'presente', 'primavera', 'proeza', 'prova', 'pular',
+  'puzzle', 'qualidade', 'quarto', 'quiet', 'raio', 'realidade', 'reciclar', 'recompensa', 'recursos', 'reflexão',
+  'relaxar', 'resiliência', 'respiração', 'risada', 'rocha', 'romance', 'roteiro', 'sabedoria', 'sabor', 'saudade',
+  'segredo', 'selva', 'sensação', 'sensível', 'serenidade', 'sério', 'silêncio', 'simplicidade', 'sintonia', 'sorriso',
+  'sorte', 'sonho', 'sorvete', 'soul', 'sozinho', 'sucesso', 'surpresa', 'tempo', 'tendência', 'tesouro', 'toque',
+  'trabalho', 'tragédia', 'transformação', 'transparência', 'transporte', 'trilha', 'tristeza', 'troca', 'truque',
+  'umidade', 'união', 'unicórnio', 'universo', 'uso', 'valor', 'vento', 'verão', 'verde', 'verdade', 'viagem', 'vida',
+  'vídeo', 'vilarejo', 'vinho', 'vintage', 'vista', 'vitória', 'volta', 'vontade', 'yoga', 'zelador', 'zero', 'zumbido'
+];
+
+            // Adicione mais palavras conforme necessário
+
+        // Palavras já exibidas
+        let palavrasExibidas = [];
+
+        function generateRandomWord() {
+            const wordDisplay = document.getElementById('word-display');
+
+            if (palavrasExibidas.length === palavras.length) {
+                wordDisplay.innerHTML = 'Todas as palavras foram exibidas!';
+            } else {
+                let randomWord;
+                do {
+                    randomWord = palavras[Math.floor(Math.random() * palavras.length)];
+                } while (palavrasExibidas.includes(randomWord));
+
+                palavrasExibidas.push(randomWord);
+                wordDisplay.innerHTML = randomWord;
+            }
+        }
+    </script>
+
+</body>
+</html>
