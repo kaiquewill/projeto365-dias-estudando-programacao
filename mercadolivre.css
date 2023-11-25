@@ -1,0 +1,78 @@
+.headerSection{
+    background-color: yellow;
+    height: 14vh;
+}
+.searchsection{
+    height: 7vh;
+    text-align: center;
+
+}
+.searchbar{
+    height: 2.5vh;
+    margin-top: 2vh;
+}
+
+.benefits{
+height: 15vh;
+background-color: white;
+border-radius: 1vw;
+}
+.navbar{
+    line-height: 6vh;
+    border-style: solid;
+}
+.content{
+    background-color: aliceblue;
+    height: 86vh;
+    text-align: center;
+}
+.novaoptions{
+    vertical-align: middle;
+    margin-left: 2vw;
+}
+.novaoptions:hover
+{
+    transition-duration: 0.5s;
+    padding: 0.5%;
+    background-color: black;
+}
+.offer, .firstoffer{
+    height: 15vh;
+    width: 20vw;
+    float: left;
+    text-align: left;
+
+}
+.offertitle{
+    margin-top: 3.5vh;
+}
+.firstoffer{
+    border-right: solid;
+}
+.firstoffer, .suboffer{
+    text-align: left;
+    float: left;
+    width: 20vw;
+    height: 15vh;
+}
+.content{
+        display: inline-block;
+        margin-top: 5vh;
+        width: 80vw;
+}  
+.marketItem{
+    float: left;
+    height: 14vh;
+    color: aliceblue;
+    height: 224px;
+    width: 15vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    overflow: hidden;
+
+}
+.marketItem:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    height: 330px;
+}
