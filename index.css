@@ -1,21 +1,21 @@
+#red{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body{
-    background-color: rgb(14, 9, 9);
+    background-color: aqua;
 }
 #p1{
-    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #p2{
+    font-family: "lucida console", "courier new";
+    font: 1.5em;
+    font-weight: bold;
     color: blueviolet;
-
 }
 #p3{
-    color: yellow;
+    font-family: "oswald";
+    color: brown;
 
-}
-#p4{ 
-    color: red;
-
-}
-#red{
-    color: white;
 }
