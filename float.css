@@ -1,0 +1,16 @@
+body{
+    border: 3px solid black;
+    display: flow-root;
+    background-color: aquamarine;
+
+}
+
+#bubasar{
+    float: left;
+    margin: right 3px;
+}
+
+#pikachu{
+    float: right;
+    margin: left 3px;
+}
