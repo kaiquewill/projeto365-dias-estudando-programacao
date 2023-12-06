@@ -1,0 +1,14 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    color: aliceblue;
+    background-color: blue;
+}
+#fruit li::before{
+    content: ;
+}
