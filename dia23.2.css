@@ -1,0 +1,19 @@
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: brown;
+    border-radius: 8px;
+    font-style: italic
+}
+.pagination a:hover:not(.active){
+    background-color: grey;
+    border-radius: 8px;
+
+}
