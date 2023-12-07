@@ -1,21 +1,31 @@
-#red{
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.dropdown{
+    display: inline-block;
 }
-body{
+.dropdown button{
     background-color: aqua;
+    color: blue;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
 }
-#p1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
 }
-#p2{
-    font-family: "lucida console", "courier new";
-    font: 1.5em;
-    font-weight: bold;
-    color: blueviolet;
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(239, 238, 238);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px;
 }
-#p3{
-    font-family: "oswald";
-    color: brown;
-
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: azure;
+}.dropdown a:hover{
+    background-color: aquamarine;
 }
