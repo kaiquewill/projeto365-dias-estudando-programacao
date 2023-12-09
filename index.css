@@ -1,31 +1,30 @@
-.dropdown{
-    display: inline-block;
+body{
+    margin: 0px;
 }
-.dropdown button{
-    background-color: aqua;
-    color: blue;
-    padding: 10px 15px;
-    border-radius: 8px;
-    cursor: pointer;
+main{
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.dropdown a{
-    display: block;
-    color: black;
+h1{
+    text-align: center;
+}
+.navpag ul{
+    list-style-type:none;
+    background-color: rgb(159, 151, 151);
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.navpag a{
+    color: rgb(245, 243, 243);
     text-decoration: none;
-    padding: 10px 15px;
-}
-.dropdown .content{
-    display: none;
-    position: absolute;
-    background-color: rgb(239, 238, 238);
-    min-width: 100px;
-    box-shadow: 2px 2px 5px;
-}
-.dropdown:hover .content{
+    padding: 15px;
     display: block;
+    text-align: center;
 }
-.dropdown:hover button{
-    background-color: azure;
-}.dropdown a:hover{
-    background-color: aquamarine;
+.navpag a:hover{
+    background-color: black;
+}
+.navpag li{
+    float: left;
 }
