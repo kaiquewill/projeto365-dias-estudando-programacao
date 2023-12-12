@@ -1,0 +1,19 @@
+.icons{
+    text-align: center;
+
+}
+.fa-solid.fa-house.fa-5x{
+    color: rgb(45, 81, 81);
+    padding: 20px;
+}
+.fa-brands.fa-twitter.fa-5x{
+    color: aqua;
+    padding: 20px;
+}
+.fa-brands.fa-youtube.fa-5x{
+    color: red;
+    padding: 20px;
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: lightcoral;
+}
