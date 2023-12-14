@@ -1,19 +1,22 @@
-.gallery{
-    display: inline-block;
-    border: 1px solid;
-    margin: 2px;
-    width: 200px;
+.box{
+    transform:rotateZ(45deg) translateX(100%);
 }
-.gallery .description{
-    padding: 10px;
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: solid;
     text-align: center;
+    font-size: 8em;
 }
-.gallery:hover{
-    border: 1px solid;
-    color: aqua;
+#box1{
+    background-color: aqua;
+    text-size-adjust: 10em;
 }
-.gallery img{
-    width: 100%;
-    height: auto;
- 
+
+#box2{
+    background-color: brown;
+}
+#box3{
+    background-color: blueviolet;
 }
