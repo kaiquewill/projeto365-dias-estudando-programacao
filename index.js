@@ -1,23 +1,11 @@
 
-let grade = "B"; 
 
-switch(grade){
-    case "A":
-        console.log("you did great")
-        break;
+let temp = -15;
+let sunny = false;
 
-    case "B":
-         console.log("you did good")
-            break;
-    case "C":
-         console.log("you did ok")
-            break;
-
-    case "D":
-         console.log("you did shit")
-            break;
-    case "F":
-        console.log("you fail")
-            break;
-
+if(temp > 0 && temp <30 && sunny == true){
+    console.log("the weather is good");
+}
+else{ 
+    console.log("the weather is bad");
 }
