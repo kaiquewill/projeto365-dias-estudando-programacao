@@ -1,11 +1,9 @@
 
 
-let temp = -15;
-let sunny = false;
 
-if(temp > 0 && temp <30 && sunny == true){
-    console.log("the weather is good");
+let userName = "";
+
+while(userName == "" || userName ==null){
+    userName = window.prompt("type your user name")
 }
-else{ 
-    console.log("the weather is bad");
-}
+console.log("hello " + userName)
