@@ -1,8 +1,19 @@
 
+startProgram();
 
+function startProgram(){
+    let username = "kaique";
+    let age = 26;
 
-for (let i = 10; i > 0; i-=4 ){
-    console.log(i);
+    happyBday(username, age);
 }
+function happyBday(username,age){
+    console.log("happy bday to you ")
+    console.log("happy bday to you ")
+    console.log("happy bday to you ")
+    console.log("happy bday dear ", username)
+    console.log("happy bday to you ")
+    console.log("you are ",age, " years old ")
 
-console.log("happy new year")
+
+}
