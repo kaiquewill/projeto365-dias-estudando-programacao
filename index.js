@@ -1,19 +1,18 @@
 
-startProgram();
 
-function startProgram(){
-    let username = "kaique";
-    let age = 26;
+/*
+let adult = checkAge(19);
+console.log(adult);
 
-    happyBday(username, age);
+function checkAge(age){
+
+    return age >= 18? true: false;
 }
-function happyBday(username,age){
-    console.log("happy bday to you ")
-    console.log("happy bday to you ")
-    console.log("happy bday to you ")
-    console.log("happy bday dear ", username)
-    console.log("happy bday to you ")
-    console.log("you are ",age, " years old ")
+*/
 
+checkWinner(true);
 
+function checkWinner(win){
+    win? console.log("you win!") : console.log("you lose!")
 }
+
