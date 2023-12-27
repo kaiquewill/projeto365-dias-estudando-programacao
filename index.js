@@ -1,18 +1,14 @@
+//templete literal\
 
 
-/*
-let adult = checkAge(19);
-console.log(adult);
 
-function checkAge(age){
+let username = 'kaique';
+let items = 3;
+let total = 75;
 
-    return age >= 18? true: false;
-}
-*/
+let text = 
+`Hello ${username} <br>
+you have ${items} in your cart<br>
+your total is $${total} <br>`;
 
-checkWinner(true);
-
-function checkWinner(win){
-    win? console.log("you win!") : console.log("you lose!")
-}
-
+console.log(text)
